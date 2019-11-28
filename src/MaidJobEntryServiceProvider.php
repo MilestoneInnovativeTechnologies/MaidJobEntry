@@ -3,8 +3,6 @@
 namespace Milestone\MaidJobEntry;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Event;
 
 class MaidJobEntryServiceProvider extends ServiceProvider
 {
@@ -15,6 +13,7 @@ class MaidJobEntryServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        $this->loadMigrationsFrom(__DIR__ . DIRECTORY_SEPARATOR . '../migrations');
     }
 
     /**

@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "milestone/appframe": "^0.9.7"
+        "milestone/Milestone\MaidJobEntryframe": "^0.9.7"
     },
     "autoload": {
         "psr-4": {
