@@ -1,0 +1,26 @@
+{
+    "name": "milestone/maidjobentry",
+    "description": "Maids Job Entry",
+    "type": "laravel-package",
+    "authors": [
+        {
+            "name": "Milestone Innovative Technologies",
+            "email": "info@milestoneit.net"
+        }
+    ],
+    "require": {
+        "milestone/appframe": "^0.9.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Milestone\\MaidJobEntry\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Milestone\\MaidJobEntry\\MaidJobEntryServiceProvider"
+            ]
+        }
+    }
+}
